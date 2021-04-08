@@ -11,9 +11,9 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{6E53CB7D-9719-4416-9908-DEAFD6F18DDA}</ProjectGuid>
+    <ProjectGuid>{1A4D1E96-04AB-461F-96F6-71B86A503F95}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>ds_20210406</RootNamespace>
+    <RootNamespace>BinaryTree</RootNamespace>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -76,7 +76,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\..\%40work\DS\ds_20210406\ds_20210406\test.c" />
+    <ClInclude Include="..\..\..\..\%40work\DS\BinaryTree\BinaryTree\Heap.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\%40work\DS\BinaryTree\BinaryTree\Heap.c" />
+    <ClCompile Include="..\..\..\..\%40work\DS\BinaryTree\BinaryTree\test.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -15,7 +15,15 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\..\%40work\DS\ds_20210406\ds_20210406\test.c">
+    <ClInclude Include="..\..\..\..\%40work\DS\BinaryTree\BinaryTree\Heap.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\%40work\DS\BinaryTree\BinaryTree\test.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\%40work\DS\BinaryTree\BinaryTree\Heap.c">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
