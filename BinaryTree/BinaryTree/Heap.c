@@ -3,7 +3,7 @@
 #include "Heap.h"
  
 //向下调整  -调成小堆
-void AdjustDown(HpDataType* a, int root)
+void AdjustDown(HpDataType* a,int n,int root)
 {
 	int parent = root;
 	int child = parent * 2 + 1;

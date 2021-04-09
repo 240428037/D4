@@ -10,6 +10,7 @@ typedef struct Heap
 	int _capacity;
 }Heap;
 
+void AdjustDown(HpDataType* a, int n, int root);
 void HeapCreate(HpDataType* a, size_t n);
 void HeapPush(Heap* hp);
 void HeapPop(Heap* hp);
