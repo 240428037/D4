@@ -1,0 +1,20 @@
+﻿生成启动时间为 2021/5/27 20:54:54。
+     1>项目“C:\work\D6\3_20210527\3_20210527\3_20210527.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt test.cpp
+         test.cpp
+     1>c:\work\d6\3_20210527\3_20210527\test.cpp(3): error C2061: 语法错误: 标识符“vector”
+     1>c:\work\d6\3_20210527\3_20210527\test.cpp(5): error C2065: “nums”: 未声明的标识符
+     1>c:\work\d6\3_20210527\3_20210527\test.cpp(5): error C3312: 未找到类型“unknown-type”的可调用“begin”函数
+     1>c:\work\d6\3_20210527\3_20210527\test.cpp(5): error C3312: 未找到类型“unknown-type”的可调用“end”函数
+     1>c:\work\d6\3_20210527\3_20210527\test.cpp(6): error C2065: “e”: 未声明的标识符
+     1>c:\work\d6\3_20210527\3_20210527\test.cpp(14): error C2011: “Solution”:“class”类型重定义
+                 c:\work\d6\3_20210527\3_20210527\test.cpp(1) : 参见“Solution”的声明
+     1>c:\work\d6\3_20210527\3_20210527\test.cpp(73): error C2664: “size_t strlen(const char *)”: 无法将参数 1 从“int [32]”转换为“const char *”
+                 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+     1>c:\work\d6\3_20210527\3_20210527\test.cpp(74): error C2059: 语法错误:“;”
+     1>已完成生成项目“C:\work\D6\3_20210527\3_20210527\3_20210527.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:00.58
